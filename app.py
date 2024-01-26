@@ -76,7 +76,7 @@ st.title("OpenAI Model Pricing App")
 
 # Textbox for user input
 text_container = st.container()
-user_input = text_container.text_area("Enter your text:", key="input", height=250)
+user_input = text_container.text_area("Enter your text:", key="input", height=200)
 
 col1, col2, *cols = st.columns(8)
 
