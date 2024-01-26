@@ -1,0 +1,90 @@
+Language Models:
+  - name: GPT-4 Turbo
+    models:
+      - name: gpt-4-0125-preview
+        input_cost: 0.01
+        output_cost: 0.03
+        per_token: 1000
+      - name: gpt-4-1106-preview
+        input_cost: 0.01
+        output_cost: 0.03
+        per_token: 1000
+      - name: gpt-4-1106-vision-preview
+        input_cost: 0.01
+        output_cost: 0.03
+        per_token: 1000
+        vision:
+          low:
+            input_cost: 0.01
+            per_token: 1000
+            total_token: 85
+          high:
+            input_cost: 0.01
+            per_token: 1000
+            base_token: 85
+            tile_size: 512
+  - name: GPT-4
+    models:
+      - name: gpt-4
+        input_cost: 0.03
+        output_cost: 0.06
+        per_token: 1000
+      - name: gpt-4-32k
+        input_cost: 0.06
+        output_cost: 0.12
+        per_token: 1000
+  - name: GPT-3.5 Turbo
+    models:
+      - name: gpt-3.5-turbo-1106
+        input_cost: 0.001
+        output_cost: 0.020
+        per_token: 1000
+      - name: gpt-3.5-turbo-instruct
+        input_cost: 0.0015
+        output_cost: 0.0020
+        per_token: 1000
+  # - name: Fine-tuning models
+  #   models:
+  #     - name: gpt-3.5-turbo
+  #       training:
+  #         input_cost: 0.0080
+  #         per_token: 1000
+  #       inference:
+  #         input_cost: 0.003
+  #         output_cost: 0.0060
+  #         per_token: 1000
+  #     - name: davinci-002
+  #       training:
+  #         input_cost: 0.0060
+  #         per_token: 1000
+  #       inference:
+  #         input_cost: 0.0120
+  #         output_cost: 0.0120
+  #         per_token: 1000
+  #     - name: babbage-002
+  #       training:
+  #         input_cost: 0.0004
+  #         per_token: 1000
+  #       inference:
+  #         input_cost: 0.0016
+  #         output_cost: 0.0016
+  #         per_token: 1000
+  - name: Embedding models
+    models:
+      - name: text-embedding-3-small
+        input_cost: 0.00002
+        per_token: 1000
+      - name: text-embedding-3-large
+        input_cost: 0.00013
+        per_token: 1000
+      - name: ada v2
+        input_cost: 0.00010
+        per_token: 1000
+  - name: Base models
+    models:
+      - name: davinci-002
+        input_cost: 0.0020
+        per_token: 1000
+      - name: babbage-002
+        input_cost: 0.0004
+        per_token: 1000
