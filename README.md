@@ -57,7 +57,7 @@ The tool currently supports language models. Depending on the selected model, ad
 
 - The tool uses configuration data loaded from a YAML file (`config.yaml`) to determine model attributes and pricing details.
 
-- For more information on vision models and calculating costs, refer to [OpenAI's documentation](https://platform.openai.com/docs/guides/vision/calculating-costs).
+- For more information on vision models and calculating costs, refer to [OpenAI's documentation](https://openai.com/pricing).
 
 ## Contributing
 
