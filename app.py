@@ -6,8 +6,8 @@ from utils import calculate_vision_token_cost
 
 
 st.set_page_config(
-    page_title="Text Generation",
-    page_icon=":robot:",
+    page_title="OpenAI API Pricing Calculator",
+    page_icon="💡",
     initial_sidebar_state="expanded",
 )
 
