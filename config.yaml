@@ -77,7 +77,7 @@ Language Models:
       - name: text-embedding-3-large
         input_cost: 0.00013
         per_token: 1000
-      - name: ada v2
+      - name: text-embedding-ada-002
         input_cost: 0.00010
         per_token: 1000
   - name: Base models
