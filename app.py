@@ -72,7 +72,7 @@ st.sidebar.markdown(
 )
 
 # Main content
-st.title("OpenAI Model Pricing App")
+st.title("Prompt To Price")
 
 # Textbox for user input
 text_container = st.container()
